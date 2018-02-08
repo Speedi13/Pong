@@ -1,8 +1,5 @@
 #pragma once
 #include <Windows.h>
-#ifndef lol
-#define lol
-
 
 namespace PongSettings
 {
@@ -19,4 +16,3 @@ namespace PongSettings
 	void LoadSettings();
 	void SaveSettings();
 };
-#endif
